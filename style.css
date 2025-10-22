@@ -1,0 +1,194 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px;
+    padding: 20px;
+}
+
+/* bagian utama*/
+.fieldset-container {
+    border: 1px solid;
+    padding: 20px;
+    width: 800px;
+    margin: auto;
+}
+
+.fieldset-container legend {
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+/* foto profil*/
+.div-img{
+    display: flex;
+    align-items: flex-start;
+}
+
+.div-img img{
+    width: 175px;
+    height: 175px;
+    object-fit: cover;
+    border: 1px solid #000;
+    margin-right: 20px;
+}
+
+/* profile name*/
+.div-profileinfo{
+    margin-left: 5px;
+    flex: 1;
+}
+
+.div-profileinfo h2{
+    margin: 5px;
+    padding: 5px;
+    font-size: 40px;
+}
+
+.div-profileinfo p,b{
+    margin-top: 5px;
+    padding: 0;
+}
+
+/* kategori sebelah kanan*/
+.div-categories{
+    position: absolute;
+    right: 280px;
+    top: 75px;
+}
+
+.div-categories h3{
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+
+.div-categories p{
+    margin: 0;
+    padding: 0;
+    font-size: 12px solid;
+    text-align: right;
+}
+
+/* bagian deskripsi*/
+.div-isi{
+    margin: 10px;
+    padding: 5px;
+
+}
+
+.div-deskripsi{
+    margin: auto;
+}
+
+.div-deskripsi p{
+    font-size: 20px;
+}
+
+/*bagian media*/
+.media-container {
+    display: flex;
+    justify-content: center; /* tengah secara horizontal */
+    align-items: flex-start; /* sejajarkan di atas */
+    gap: 20px; /* jarak antara video dan foto */
+}
+
+.media-container legend{
+    font-size: 20px;
+    padding: 0 20px;
+}
+
+/* bagian video*/
+.fieldset-bawah1{
+   width: 100px;
+   border: 1px solid; 
+   border-radius: 10px;
+}
+
+.div-video{
+    border: 1px solid;
+}
+
+.div-video video{
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* bagian foto*/
+.fieldset-bawah2{
+    width: 0;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.div-img2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr); /* 2 Kolom */
+    gap: 10px;
+}
+
+.div-img2 img{
+    width: 80px; 
+    height: 80px;
+    object-fit: cover;
+    border: 1px solid;
+}
+
+/* bagian Attachments*/
+.fieldset-bawah3{
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 0px;
+    padding: 15px;
+}
+
+.div-bawah3{
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.div-bawah3 ul,li{
+    list-style: none;
+    padding: 0 1px;
+    margin: 0 1px;
+    font-size: 15px;
+    border:2px aqua;
+}
+
+.div-ul{
+    margin: 0;
+    padding: 0;
+}
+
+.li-1:hover{
+    transition: .3s ease-in-out;
+    transition-delay: .2s;
+    background-color: rgb(97, 97, 221);
+    border-radius: 2px;
+}
+
+.li-2:hover{
+    transition: .3s ease-in-out;
+    transition-delay: .2s;
+    background-color: rgb(97, 97, 221);
+    border-radius: 2px;
+}
+
+.li-3:hover{
+    transition: .3s ease-in-out;
+    transition-delay: .2s;
+    background-color: rgb(97, 97, 221);
+    border-radius: 2px;
+}
+
+.li-4:hover{
+    transition: .3s ease-in-out;
+    transition-delay: .2s;
+    background-color: rgb(97, 97, 221);
+    border-radius: 2px;
+}
